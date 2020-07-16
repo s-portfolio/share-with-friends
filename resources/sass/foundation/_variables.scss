@@ -1,0 +1,71 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$skyblue : skyblue;
+$skyblue2 : #1da1f3;
+$skyblue3 : #2cacf3;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$black : #000000;
+$white : #FFFFFF;
+$silver : silver;
+$gold1 : #f5f2eb;
+$navy1 : #131834;
+$navy2 : #16168D;
+
+// Fontsize
+$font-size_s : 12px;
+$font-size_m : 14px;
+$font-size_default : 16px;
+$font-size_l : 18px;
+$font-size_xl : 20px;
+$font-size_xxl : 24px;
+$font-size_3l : 30px;
+$font-size_4l : 40px;
+$font-size_5l : 50px;
+$font-size_6l : 60px;
+
+//Space
+$space_s : 5px;
+$space_m : 10px;
+$space_l : 15px;
+$space_xl : 20px;
+$space_xxl : 25px;
+$space_3l : 30px;
+$space_4l : 40px;
+$space_5l : 50px;
+$space_6l : 60px;
+$space_7l : 70px;
+
+//text-decoration
+a {
+    text-decoration:none;
+    color:$navy1;
+}
+
+body{
+    line-height:1.6;
+    font-size:$font-size_default;
+    font-family: 'Noto Sans', sans-serif;
+    height:100%;
+    background:$gold1;
+    color:$navy1;
+}
+
+html{
+    height:100%;
+}

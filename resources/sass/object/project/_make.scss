@@ -1,0 +1,54 @@
+.p-make{
+    text-align:center;
+    &__txt{
+        display:inline-block;
+        text-align:left;
+        font-size:$font-size_xl;
+        line-height:3;
+    }
+    &__subject{
+        font-size:$font-size_3l;
+        margin: $space_5l;
+        padding:$space_m;
+        box-sizing:border-box;
+        width:50%;
+        text-align:center;
+    }
+    &__block{
+        width:40%;
+        margin: 0 auto;
+        display:block;
+        text-align:left;
+        input[type="text"]{
+            font-size:$font-size_3l;
+            display:block;
+            padding:$space_s;
+        }
+        input[type="radio"]{
+            width:20px;
+            height:20px;
+        }
+    }
+    &__label{
+        font-size:$font-size_3l;
+        width:40%;
+        display:inline-block;
+        text-align:left;
+        box-sizing:border-box;
+    }
+    &__problem{
+        width:100%;
+    }
+    &__choice{
+        width:50%;
+    }
+    &__answerCon{
+        display:block;
+        font-size:$font-size_xxl;
+    }
+    &__err{
+        background:rgba(240,0,0,0.8);
+        color:$white;
+        font-size:$font-size_xl;
+    }
+}

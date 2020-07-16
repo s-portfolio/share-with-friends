@@ -1,0 +1,30 @@
+.c-input{
+    display:block;
+    height:50px;
+    font-size:$font-size_l;
+    margin-top:$space_s;
+    width:100%;
+    outline:0;
+    border : none;
+    border-bottom:1px solid $navy1;
+    padding:$space_s $space_xl;
+    box-sizing:border-box;
+    &__error{
+        padding-top:$space_m;
+        color:$red;
+        display:block;
+    }
+    &.is-invalid{
+        border:1px solid red;
+    }
+    &2{
+        border:none;
+        height:18px;
+        width:18px;
+        margin:0;
+        vertical-align:bottom;
+        &__text{
+            vertical-align:bottom;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.c-heading{
+    font-size:$font-size_xxl;
+    padding:$space_m 0 0 0;
+    margin-bottom:$space_xl;
+    font-weight:bold;
+    @include mq(sm){
+        margin-bottom:$space_l;
+    }
+    &__sub{
+        font-size:$font-size_l;
+        margin-bottom:$space_m;
+        color:$navy1;
+        &2{
+            color:$white;
+            font-size:$font-size_xxl;
+            margin-bottom:$space_l;
+        }
+        &3{
+            font-size:$font-size_l;
+        }
+    }
+}

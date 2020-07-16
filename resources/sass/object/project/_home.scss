@@ -1,0 +1,24 @@
+.p-home{
+    display:flex;
+    margin-right:-100px;
+    &__block{
+        width: calc(33.333% - 100px);
+        margin-right:100px;
+        height:300px;
+        border-radius:30px;
+        background:$navy1;
+        &:last-of-type{
+        }
+    }
+    &__link{
+        color:$white;
+        line-height:300px;
+        margin:0 auto;
+        display:block;
+        text-align:center;
+        font-size:$font-size_xl;
+        &:hover{
+            text-decoration:underline;
+        }
+    }
+}

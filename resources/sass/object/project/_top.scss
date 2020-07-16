@@ -1,0 +1,28 @@
+.p-top{
+    max-width:980px;
+    margin:0 auto;
+    display:flex;
+    &__title{
+        width:40%;
+        line-height:3;
+        box-sizing:border-box;
+        padding:$space_3l;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    &__txt{
+        font-size:$font-size_3l;
+        text-align:center;
+    }
+    &__link{
+        font-size: $font-size_xl;
+        text-align:center;
+        background : $navy1;
+        color: $white;
+        border-radius:30px;
+    }
+    &__img{
+        width:60%;
+    }
+}

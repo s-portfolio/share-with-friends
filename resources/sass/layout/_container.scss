@@ -1,0 +1,18 @@
+.l-container{
+    max-width:980px;
+    margin:0 auto;
+    padding: 0 $space_l;
+    height:100%;
+    box-sizing:border-box;
+    @include mq(sm){
+        max-width: 575px;
+        padding:0;
+        @include mq(xs){
+            max-width:320px;
+        }
+    }
+}
+
+#js-container{
+    position:relative;
+}

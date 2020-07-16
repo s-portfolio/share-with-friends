@@ -1,0 +1,9 @@
+.l-main{
+    min-height:calc(100vh - 180px);
+    padding:$space_xl;
+    box-sizing:border-box;
+    @include mq(sm){
+        padding:$space_s;
+        min-height:calc(100vh - 160px);
+    }
+}

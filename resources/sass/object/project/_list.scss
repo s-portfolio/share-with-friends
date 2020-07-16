@@ -1,0 +1,29 @@
+.p-list{
+    display:flex;
+    margin-right:-10px;
+    flex-wrap:wrap;
+    &__block{
+        width:calc(33.33333% - 10px);
+        margin-right:10px;
+        margin-bottom:$space_3l;
+        padding:$space_l;
+        box-sizing:border-box;
+        background:$navy1;
+        color:$white;
+        position:relative;
+        &:hover{
+            background:rgba(19,24,52,0.9);
+        }
+    }
+    &__label{
+        display:block;
+    }
+    &__subject{
+        text-align:center;
+    }
+    &__icon{
+        position:absolute;
+        top:10px;
+        right:10px;
+    }
+}

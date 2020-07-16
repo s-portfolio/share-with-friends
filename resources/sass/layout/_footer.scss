@@ -1,0 +1,20 @@
+.l-footer{
+    height:80px;
+    width:100%;
+    @include mq(sm){
+        font-size:$font-size_m;
+        height:60px;
+        @include mq(xs){
+            font-size:$font-size_s;
+        }
+    }
+    br{
+        display:none;
+
+    }
+    &__container{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+}

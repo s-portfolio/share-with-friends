@@ -1,0 +1,34 @@
+.p-detail{
+    border-bottom: 1px solid $navy1;
+    padding:$space_m;
+    width:70%;
+    margin:0 auto;
+    &__problem{
+        font-size:$font-size_xl;
+    }
+    &__choice{
+        &--txt{
+            display:inline-block;
+            padding:$space_m;
+        }
+    }
+    &__subject{
+        font-size:$font-size_3l;
+    }
+    &__answer{
+        text-align:right;
+        padding:$space_m;
+    }
+    &__container{
+        display:block;
+        width:70%;
+        margin:0 auto 30px auto;
+        font-size:$font-size_xl;
+    }
+    &__link{
+        font-size:$font-size_xl;
+        padding:$space_m;
+        box-sizing:border-box;
+        width:50%;
+    }
+}

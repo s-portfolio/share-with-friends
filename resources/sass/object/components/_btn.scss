@@ -1,0 +1,73 @@
+.c-btn{
+    width:250px;
+    display:block;
+    font-size:$font-size_default;
+    outline:0;
+    color:$white;
+    background:$navy1;
+    border:1px solid $white;
+    padding:$space_m;
+    margin:$space_xl auto;
+    box-sizing:border-box;
+    border-radius:3px;
+    transition:all .3s;
+    opacity:0.9;
+    cursor:pointer;
+    &__login{
+        margin-top:$space_xl;
+        &:hover{
+            opacity:1;
+            transition:all .3s;
+        }
+    }
+    &__twitter{
+        background:$skyblue3;
+        display:block;
+        border:none;
+        border-radius:10px;
+        opacity:0.9;
+        &:hover{
+            opacity:1;
+        }
+        &:disabled{
+            background:$white;
+            opacity:1;
+            cursor:auto;
+        }
+
+    }
+    &__follow{
+        width:100px;
+        padding:$space_s;
+        &--all{
+            width:200px;
+            padding:0;
+        }
+    }
+    &__trend{
+        background:$white;
+        outline:0;
+        margin:0 $space_s;
+        font-size:$font-size_default;
+        color:$white;
+        transition:.5s all;
+        border:1px solid $white;
+        padding:$space_s;
+        width:200px;
+        cursor:pointer;
+        @include mq(sm){
+            width:100%;
+            margin:0 0 $space_s 0;
+        }
+        &--select{
+            background:$white;
+            color:$white;
+        }
+    }
+    &__link{
+        margin-top:$space_7l;
+    }
+    &__register{
+        margin-top:$space_5l;
+    }
+}
