@@ -807,7 +807,8 @@ table {
   font-size: 20px;
   padding: 10px;
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .p-test__title {
