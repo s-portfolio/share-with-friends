@@ -28,11 +28,6 @@
             <button type="submit" class="c-btn c-btn__login">
                 {{ __('Login') }}
             </button>
-            @if (Route::has('password.request'))
-                <a class="p-form__forget" href="{{ route('password.request') }}">
-                    {{ __('Forgot Your Password?') }}
-                </a>
-            @endif
         </div>
     </form>
 @endsection
