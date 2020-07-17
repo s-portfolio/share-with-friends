@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 
+
 class TwitterController extends Controller
 {
     public function __construct(){
