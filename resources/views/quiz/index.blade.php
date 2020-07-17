@@ -5,9 +5,9 @@
 @section('content')
     <h1 class="c-heading u-center">作成クイズ詳細</h1>
     <div class="p-detail__container">
-        <label class="p-detail__label" for="">友達への共有リンク　：　</label>
+        <label class="p-detail__label" for="">友達への共有リンク　：　  </label>
         <input class="p-detail__link" type="text" readonly="readonly"
-               value="">
+               value="https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
     </div>
     <p class="p-detail__subject u-center">クイズテーマ　：　{{ $problem->subject }}</p>
     @for($i=0;$i<5;$i++)
