@@ -9,7 +9,7 @@
         <input class="p-detail__link" type="text" readonly="readonly"
                value="https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
         <div class="p-share">
-            <a class="p-share__btn"
+            <a class="p-share__btn c-btn__twitter"
                href="https://twitter.com/intent/tweet?text=クイズを作ったのでやってみてください!!%20https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
                 Tweetで共有する</a>
         </div>
