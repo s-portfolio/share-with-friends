@@ -534,7 +534,7 @@ table {
 }
 
 .c-btn__twitter:disabled {
-  background: #FFFFFF;
+  background: firebrick;
   opacity: 1;
   cursor: auto;
 }
