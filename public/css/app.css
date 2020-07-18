@@ -846,6 +846,17 @@ table {
   margin-bottom: 30px;
 }
 
+.p-share {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.p-share__btn {
+  background: #2cacf3;
+  color: #FFFFFF;
+}
+
 .u-center {
   text-align: center;
 }

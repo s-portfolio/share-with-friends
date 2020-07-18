@@ -1,0 +1,9 @@
+.p-share{
+    display:flex;
+    flex-direction:row-reverse;
+    width:100%;
+    &__btn{
+        background:#2cacf3;
+        color:$white;
+    }
+}

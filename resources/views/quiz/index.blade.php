@@ -8,9 +8,11 @@
         <label class="p-detail__label" for="">友達への共有リンク　：　  </label>
         <input class="p-detail__link" type="text" readonly="readonly"
                value="https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
-        <a class="twitter-share-button"
-           href="https://twitter.com/intent/tweet?text=クイズを作ったのでやってみてください!!%20https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
-            Tweetで共有する</a>
+        <div class="p-share">
+            <a class="p-share__btn"
+               href="https://twitter.com/intent/tweet?text=クイズを作ったのでやってみてください!!%20https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
+                Tweetで共有する</a>
+        </div>
     </div>
     <p class="p-detail__subject u-center">クイズテーマ　：　{{ $problem->subject }}</p>
     @for($i=0;$i<5;$i++)
