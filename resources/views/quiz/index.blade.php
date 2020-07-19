@@ -9,9 +9,9 @@
         <input class="p-detail__link" type="text" readonly="readonly"
                value="https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
         <div class="p-share">
-            <a class="p-share__btn c-btn c-btn__twitter"
+            <a class="p-share__btn c-btn c-btn__twitter u-center"
                href="https://twitter.com/intent/tweet?text=クイズを作ったのでやってみてください!!%20https://share-with-friends-a.herokuapp.com/quiz/test/{{ $problem->id }}">
-                <i class="fab fa-twitter"></i>Twitterで共有</a>
+                <i class="fab fa-twitter"></i>Twitterでリンクを共有</a>
         </div>
     </div>
     <p class="p-detail__subject u-center">クイズテーマ　：　{{ $problem->subject }}</p>
